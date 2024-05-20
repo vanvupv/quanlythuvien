@@ -1,0 +1,39 @@
+.login {
+    &__header {
+
+    }
+
+    &__row {
+        justify-content: space-between;
+    }
+    &__phanhoi {
+        text-align: end;
+        a {
+            text-decoration: none;
+            color: black;
+            &:hover {
+                color: blue;
+                text-decoration: underline;
+            }
+        }
+    }
+
+
+ }
+
+.formGroup {
+    &__label {
+        font-weight: 700;
+    }
+
+    &__error {
+        color: red;
+    }
+}
+
+.password-toggle-btn:hover {
+    cursor: pointer;
+}
+
+
+
