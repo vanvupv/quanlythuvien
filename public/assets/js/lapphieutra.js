@@ -42,7 +42,7 @@ $(document).ready(function () {
                     CreateReturn.attr('disabled', false);
                     return;
                 }
-
+					 
                 if(status == 404) {
                     alert(response.message);
                     $('.readerInfo > .card-body').html('Không tìm thấy thông tin');
